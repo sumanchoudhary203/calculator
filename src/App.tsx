@@ -19,7 +19,7 @@ function App() {
         </div>
         <div className="bg-gray-300 h-32"></div>
         <div className="bg-gray-300 h-16 rounded-b-3xl"></div>
-        <div className=" h-[475px]    p-3">
+        <div className=" h-[475px] p-3">
           <div className=" flex space-x-5  text-center   justify-center">
             <div className="h-12 w-12 bg-blue-200  p-1 rounded-full">
               <LiaSquareRootAltSolid size={35} />
@@ -37,20 +37,12 @@ function App() {
               v
             </div>
           </div>
-          <div className="p-1 space-y-1">
-            <div className="flex pl-2 space-x-3 ">
-              <button className="h-[75px] w-[75px] rounded-full bg-gray-400"></button>
-              <button className="h-[75px] w-[75px] rounded-full bg-gray-400"></button>
-              <button className="h-[75px] w-[75px] rounded-full bg-gray-400"></button>
-              <button className="h-[75px] w-[75px] rounded-full bg-gray-400"></button>
-            </div>
-            {/* <div className="h-36 w-12 bg-red-300">sad</div> */}
-            <div className=" flex flex-col pr-1   space-y-2 items-end">
-              <button className="h-[75px] w-[75px] rounded-full bg-gray-400"></button>
-              <button className="h-[75px] w-[75px] rounded-full bg-gray-400"></button>
-              <button className="h-[75px] w-[75px] rounded-full bg-gray-400"></button>
-              <button className="h-[75px] w-[75px] rounded-full bg-gray-400"></button>
-            </div>
+          <div className="flex flex-col">
+            <button className="h-[70px] w-[70px] rounded-full bg-gray-400"></button>
+            <button className="h-[70px] w-[70px] rounded-full bg-gray-400"></button>
+            <button className="h-[70px] w-[70px] rounded-full bg-gray-400"></button>
+            <button className="h-[70px] w-[70px] rounded-full bg-gray-400"></button>
+            <button className="h-[70px] w-[70px] rounded-full bg-gray-400"></button>
           </div>
         </div>
       </div>
